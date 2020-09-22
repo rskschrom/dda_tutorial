@@ -1,0 +1,3 @@
+#! /bin/bash
+
+mpirun -n 4 adda_mpi -shape read crystal_0000_3.0.txt -lambda 8400 -dpl 350.0 -prop 0 0 1 -orient 90 90 90 -m 1.785645 0.000918 -scat_matr ampl -store_scat_grid -scat_grid_inp scat_params.dat -dir crystal_output -iter qmr2

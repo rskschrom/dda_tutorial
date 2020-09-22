@@ -1,0 +1,2 @@
+#! /bin/bash
+mpirun -n 4 adda_mpi -shape ellipsoid 0.5 0.2 -size 1000 -lambda 32100 -m 1.78 0 -grid 100 -prop 0 0 1 -orient 90 90 90 -scat_matr ampl -scat_grid_inp /home/robert/dda_tutorial/scat_params.dat -store_scat_grid -dir ellipsoid_output
