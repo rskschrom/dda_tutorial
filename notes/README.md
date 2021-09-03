@@ -1,6 +1,6 @@
 # ADDA notes
 
-- [Introduction to DDA](# Section 1)
+- [Introduction to DDA](#section-1)
 - [Scattering amplitude matrices](# Section 2)
 - [Euler rotation angles](# Section 3)
 - [Scattering geometry](# Section 4)
