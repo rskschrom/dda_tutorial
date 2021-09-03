@@ -6,5 +6,5 @@
 
 # Python utilities
 - [calc_scat.py](calc_scat.py): script to calculate radar scattering properties from ADDA output of scattering amplitude matrices.
-- [make_crystal_dda.py](make_crystal_dda.py): script to generate an ADDA-formated input branched-planar crystal shape file.
-- []
+- [make_crystal_dda.py](make_crystal_dda.py): script to generate an ADDA-formated input branched-planar crystal shape file. Requires the [crystal_dda](https://github.com/rskschrom/crystal_dda) package.
+- [single_particle.py](single_particle.py): module containing functions to compute polarizabilities of ellipsoids with the Rayleigh approximation. Useful to compare with ADDA results.
